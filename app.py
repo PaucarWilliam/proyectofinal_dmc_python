@@ -858,7 +858,7 @@ elif ph_menu == "EDA":
 
             st.success("✅ El Análisis Exploratorio de Datos ha sido completado exitosamente.")
 
-if ph_menu == "Conclusionese":
+if ph_menu == "Conclusiones":
     st.header("Conclusiones Finales")
 
     st.write("""
