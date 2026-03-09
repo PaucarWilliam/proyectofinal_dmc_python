@@ -857,3 +857,35 @@ elif ph_menu == "EDA":
             """)
 
             st.success("✅ El Análisis Exploratorio de Datos ha sido completado exitosamente.")
+
+if ph_menu == "Conclusionese":
+    st.header("Conclusiones Finales")
+
+    st.write("""
+    Después de realizar el análisis exploratorio de datos (EDA) sobre el dataset de la compañía de seguros, se pueden extraer las siguientes conclusiones clave:
+    """)
+
+    st.subheader("1. Comportamiento de renovación de pólizas")
+    st.write("""
+    Se observa que ciertas características de los clientes, como edad, antigüedad y tipo de póliza, muestran patrones claros de renovación. Esto permite a la compañía identificar grupos de clientes con mayor riesgo de no renovar y enfocar estrategias de retención.
+    """)
+
+    st.subheader("2. Variables más influyentes")
+    st.write("""
+    Las variables numéricas y categóricas analizadas revelan que algunos factores tienen un impacto más significativo en la toma de decisiones de los clientes. Estos insights son útiles para priorizar recursos en marketing y personalización de ofertas.
+    """)
+
+    st.subheader("3. Datos faltantes y calidad del dataset")
+    st.write("""
+    Se identificaron valores faltantes en varias columnas, lo que puede afectar la precisión de análisis futuros. Es recomendable implementar procedimientos de limpieza o imputación para mejorar la confiabilidad de los reportes y análisis posteriores.
+    """)
+
+    st.subheader("4. Distribución de clientes y pólizas")
+    st.write("""
+    Los histogramas y análisis de frecuencias muestran concentraciones de clientes en ciertos rangos de edad, ingresos y tipo de póliza. Esto ayuda a la compañía a segmentar su cartera de clientes y diseñar estrategias específicas para cada segmento.
+    """)
+
+    st.subheader("5. Relación entre variables")
+    st.write("""
+    Los análisis bivariados y cruzados indican que existen relaciones claras entre variables categóricas y numéricas. Comprender estas relaciones permite tomar decisiones basadas en datos para optimizar campañas, mejorar la retención y ajustar productos a las necesidades de los clientes.
+    """)
